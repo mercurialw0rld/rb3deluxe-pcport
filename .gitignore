@@ -1,0 +1,11 @@
+/out/
+/external/
+/generated/
+/rockband3deluxe_manifest.local.toml
+*.xex
+*.ark
+*.hdr
+*.zbm
+*.exe
+*.dll
+*.pdb
