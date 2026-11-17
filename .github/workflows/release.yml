@@ -1,0 +1,21 @@
+name: Verify Windows launcher
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Build the launcher and test application updates
+        shell: pwsh
+        run: |
+          ./Build-Launcher.ps1 -LauncherOnly -OutputDirectory ./out/publication
+          ./tests/Test-Updater.ps1
+

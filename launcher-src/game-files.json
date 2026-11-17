@@ -1,0 +1,69 @@
+{
+  "XexSha256": "6639CE25745505B598480499CA53B421FDEC5604D813F5EE2C8152ECDAD2A5EA",
+  "Files": [
+    {
+      "Path": "charnames.zbm",
+      "Size": 258
+    },
+    {
+      "Path": "gen/main_xbox.hdr",
+      "Size": 511281
+    },
+    {
+      "Path": "gen/main_xbox_0.ark",
+      "Size": 15116275
+    },
+    {
+      "Path": "gen/main_xbox_1.ark",
+      "Size": 2876760
+    },
+    {
+      "Path": "gen/main_xbox_2.ark",
+      "Size": 74396817
+    },
+    {
+      "Path": "gen/main_xbox_3.ark",
+      "Size": 454937021
+    },
+    {
+      "Path": "gen/main_xbox_4.ark",
+      "Size": 746045260
+    },
+    {
+      "Path": "gen/main_xbox_5.ark",
+      "Size": 613780006
+    },
+    {
+      "Path": "gen/main_xbox_6.ark",
+      "Size": 1402332797
+    },
+    {
+      "Path": "gen/main_xbox_7.ark",
+      "Size": 26755588
+    },
+    {
+      "Path": "gen/main_xbox_8.ark",
+      "Size": 1974186004
+    },
+    {
+      "Path": "gen/main_xbox_9.ark",
+      "Size": 540003243
+    }
+  ],
+  "Variants": [
+    {
+      "Name": "Deluxe",
+      "Files": [
+        { "Path": "gen/patch_xbox.hdr", "Size": 428805 },
+        { "Path": "gen/patch_xbox_0.ark", "Size": 704568986 }
+      ]
+    },
+    {
+      "Name": "Deluxe + Custom Characters",
+      "Files": [
+        { "Path": "gen/patch_xbox.hdr", "Size": 462164 },
+        { "Path": "gen/patch_xbox_0.ark", "Size": 1187109761 }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+# Scratch PowerPC registers can stay local. Preserve argument and nonvolatile registers.
+ctr_as_local = true
+xer_as_local = true
+cr_as_local = true
+non_argument_as_local = false
+non_volatile_as_local = false
+reserved_as_local = false
+
+# Leaf and tail-call routines in this Deluxe XEX that are absent from .pdata.
+[functions]
+0x823AC230 = { size = 0x48 }
+0x82790150 = { size = 0x24 }
+0x82790750 = { size = 0x10 }
+0x8279D7F8 = { size = 0x08 }
+0x82B84FB8 = { size = 0x0C }
+0x82B98D78 = { size = 0x08 }
+
+# Confirmed startup leaf and indirect PowerPC thunks missing from .pdata.
+0x8243F3C0 = { size = 0x20 }
+0x828C1FF8 = { size = 0x10 }
+0x828C21A0 = { size = 0x28 }
+0x828C21C8 = { size = 0x28 }
+0x828C21F0 = { size = 0x28 }
+0x828C2218 = { size = 0x28 }
+0x828C2638 = { size = 0x20 }
+0x828C2658 = { size = 0x10 }
+0x828C2668 = { size = 0x10 }
+0x828C2678 = { size = 0x10 }
+0x828C2688 = { size = 0x10 }
+0x828C2698 = { size = 0x10 }
+0x828C26A8 = { size = 0x10 }
+0x828C26B8 = { size = 0x10 }
+0x828C26C8 = { size = 0x10 }
+0x828C26D8 = { size = 0x10 }
+0x828C26E8 = { size = 0x10 }
+0x82BC33D8 = { size = 0x08 }
+0x82BCE410 = { size = 0x08 }
+0x82BCE418 = { size = 0x08 }
+0x82BCE420 = { size = 0x08 }
+0x82BCE428 = { size = 0x08 }
+0x82BCE430 = { size = 0x08 }
+0x82BCE440 = { size = 0x08 }
+0x82BCE448 = { size = 0x08 }
+0x82BCE450 = { size = 0x08 }
+0x82BCE458 = { size = 0x08 }
+0x82BD4C20 = { size = 0x08 }
+0x82BD4C28 = { size = 0x08 }
+0x82BD4C30 = { size = 0x08 }
+0x82BD4C40 = { size = 0x08 }
+0x82BD4EC8 = { size = 0x08 }
+0x82BD4ED8 = { size = 0x08 }
+0x82BD4EE0 = { size = 0x08 }
+0x82BD4EE8 = { size = 0x08 }
+0x82BE3DD8 = { size = 0x08 }
+0x82BF6B50 = { size = 0x08 }
+
+# Additional indirect methods referenced by the Deluxe read-only data tables.
+0x82A1D5F8 = { name = "sub_82A1D5F8" }
+0x82A596D0 = { name = "sub_82A596D0" }
+0x82BC6D58 = { name = "sub_82BC6D58" }
+0x82BE2DF8 = { size = 0x18 }
+0x82C3C1D0 = { size = 0x18 }
