@@ -1,10 +1,11 @@
 # Rock Band 3 Deluxe for Windows
+<img width="1280" height="640" alt="image" src="https://github.com/user-attachments/assets/8a209f40-5f4c-488a-9919-7153aaecce45" />
 
 **v0.1.0-preview · Windows 10/11 x64 · Direct3D 12**
 
 An unofficial native PC port of Rock Band 3 Deluxe, with a launcher, keyboard and instrument controls, custom song import, VSync, and application updates.
 
-## Download and play
+## How do i download and play? I do not care about the code
 
 1. Download **`RockBand3Deluxe-v0.1.0-preview-windows-x64.zip`** from the latest release and extract the entire ZIP to a writable folder. This is the complete Windows application. The **Source code** downloads are for rebuilding the project.
 
